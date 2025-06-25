@@ -21,3 +21,37 @@ In in-band full-duplex (IBFD) radio, self-interference (SI) from the transmitter
 
 ---
 
+## ✨ Features
+
+- **MLP-based SIC**  
+  - Linear-feature preprocessing fuses channel estimates and delayed samples  
+  - No per-frame retraining required  
+- **Efficient channel encoding**  
+  - First-order memory polynomial for coefficient extraction  
+  - Real/imaginary splits as NN inputs  
+- **Physics-based evaluation**  
+  - Jakes’ fading model for realistic mobile channels  
+  - MATLAB physics simulations + Python result analysis  
+- **Benchmarking**  
+  - Adaptive memory-polynomial (MP SIC)  
+  - Simple MLP and Residual NN baselines  
+  - Metrics: mean SIC gain, variance, compute cost
+
+---
+## ⚙️ Prerequisites
+
+- MATLAB R2022a (or later) with Signal Processing Toolbox  
+- Python 3.8+  
+  - NumPy  
+  - Matplotlib  
+  - SciPy (optional, for additional stats)  
+
+---
+
+## 🚀 Installation
+
+1. **Clone the repo**  
+   ```bash
+   git clone https://github.com/yourusername/nn-digital-sic.git
+   cd nn-digital-sic
+
