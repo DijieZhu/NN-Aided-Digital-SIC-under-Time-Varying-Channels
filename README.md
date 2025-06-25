@@ -52,6 +52,5 @@ In in-band full-duplex (IBFD) radio, self-interference (SI) from the transmitter
 
 1. **Clone the repo**  
    ```bash
-   git clone https://github.com/yourusername/nn-digital-sic.git
-   cd nn-digital-sic
+   [https://github.com/DijieZhu/NN-Aided-Digital-SIC-under-Time-Varying-Channels.git]
 
